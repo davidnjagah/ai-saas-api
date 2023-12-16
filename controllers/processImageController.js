@@ -1,8 +1,9 @@
 // ============ HANDLE IMAGE REQUEST
-// GET : api/processimage/imagegen
+// POST : api/processimage/imagegen
 // PROTECTED
 
 const handleImageGen = (req, res, next) => {
+    //console.log(req)
     res.json("Get Generated Image")
 }
 

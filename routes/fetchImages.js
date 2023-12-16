@@ -5,6 +5,6 @@ const { handleImageGen } = require('../controllers/processImageController')
 
 const router = Router();
 
-router.get('/', authMiddleware, handleImageGen)
+router.post('/', authMiddleware, handleImageGen)
 
 module.exports = router
